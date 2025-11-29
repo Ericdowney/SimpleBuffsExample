@@ -16,11 +16,11 @@ These three layers work to create the full functionality **SimpleBuffs** offers.
 * Use the Buff without the Subsystems or the Coordinator
 * Subclass `USimpleBuffsCoordinator` or `USimpleBuff` to augment its functionality.
 
-**Please Note:** If you choose to use the Coordinator or Buff without the subsystems, you will need to manually tick they objects. Subsystems handle ticking for all managed objects.
+**Please Note:** If you choose to use the Coordinator or Buff without the subsystems, you will need to manually tick these objects. Subsystems handle ticking for all managed objects.
 
 ## How to Subclass the Coordinator or Buff
 
-Every public and protected function in the `USimpleBuffsCoordinator` and `USimpleBuff` is marked as `virtual` and can be overridden.
+Every public and protected function in `USimpleBuffsCoordinator` and `USimpleBuff` are marked as `virtual` and can be overridden.
 
 ### Subclassing `USimpleBuffsCoordinator`
 
